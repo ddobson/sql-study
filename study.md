@@ -30,43 +30,55 @@ What characters denote optional parts of a command?
 Show the characters and give their name.
 
 ```md
-<!-- replace this comment with your answer -->
+Square brackets indicate the option parts of a command `[]`
 ```
+
+https://www.postgresql.org/docs/9.5/static/notation.html
 
 What characters indicate a possibly repeating element in a command?
 Show the characters and give their name.
 
 ```md
-<!-- replace this comment with your answer -->
+(...) indicate that the preceding element may be repeated.
 ```
+
+https://www.postgresql.org/docs/9.5/static/notation.html
 
 ## Creating or removing a database
 
 What shell command would you execute to create a database named `mydb`?
 
 ```sh
-# replace this comment with your answer
+createdb mydb
 ```
+
+https://www.postgresql.org/docs/9.5/static/tutorial-createdb.html
 
 What shell command would you execute to remove a database named `mydb`?
 
 ```sh
-# replace this comment with your answer
+dropdb mydb
 ```
+
+https://www.postgresql.org/docs/9.5/static/tutorial-createdb.html
 
 ## Creating or removing a table
 
 What two SQL keywords precede the table name when creating a database table?
 
 ```sql
-/* replace this comment with your answer */
+CREATE TABLE
 ```
+
+https://www.postgresql.org/docs/9.5/static/tutorial-table.html
 
 What is the SQL command to remove a database table named `mytable`?
 
 ```sql
-/* replace this comment with your answer */
+DROP TABLE `mytable`;
 ```
+
+https://www.postgresql.org/docs/9.5/static/tutorial-table.html
 
 ## Table row CRUD
 
@@ -74,23 +86,23 @@ What two SQL keywords precede the table name when populating
 a database table with rows?
 
 ```sql
-/* replace this comment with your answer */
+INSERT INTO
 ```
 
 What SQL keyword starts the command to retrieve data from a database table?
 
 ```sql
-/* replace this comment with your answer */
+SELECT
 ```
 
 What SQL command is used to update existing rows in a database table?
 
 ```sql
-/* replace this comment with your answer */
+UPDATE
 ```
 
 What SQL command is used to remove rows from a database table?
 
 ```sql
-/* replace this comment with your answer */
+DELETE
 ```
